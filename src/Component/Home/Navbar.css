@@ -1,0 +1,38 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav {
+    background-color: #2b0a2e;
+    height: 8vh;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+
+nav .header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.header button {
+    background: none;
+    border-style: none;
+    color: #957653;
+    width: 75px;
+    height: 25px;
+    border: 1px solid #957653;
+    border-radius: 10px;
+}

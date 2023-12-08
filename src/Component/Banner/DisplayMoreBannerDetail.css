@@ -1,0 +1,32 @@
+.displayBanners {
+
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    background: linear-gradient(to right, red, blue, black, green);
+    color: #fff;
+    word-wrap: break-word;
+}
+
+
+.displayBanners img {
+    width: 50%;
+    height: 100%;
+
+    object-fit: contain;
+}
+
+.displayBannersItem {
+
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    background: linear-gradient(to right, red, blue, black, green);
+    color: #fff;
+    word-wrap: break-word;
+}

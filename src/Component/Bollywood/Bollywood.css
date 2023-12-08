@@ -1,0 +1,17 @@
+.bollywood ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    overflow-x: hidden;
+}
+
+.bollywood ul li img {
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+
+}

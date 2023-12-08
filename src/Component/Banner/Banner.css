@@ -1,0 +1,17 @@
+.bannner-Contain {
+    width: 100%;
+
+    background-color: pink;
+}
+
+.imageprop {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+
+
+}
